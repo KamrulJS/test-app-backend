@@ -19,6 +19,9 @@ app.get('/login', (req, res)=>{
 app.get('/registration', (req, res)=>{
     res.send('registration')
 })
+app.get('/hello', (req, res)=>{
+    res.send('we are going to backend ocean')
+})
 
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
